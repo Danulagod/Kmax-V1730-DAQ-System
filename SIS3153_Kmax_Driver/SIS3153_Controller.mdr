@@ -1,0 +1,21 @@
+;-------------------------------------
+; SIS3153
+;-------------------------------------
+MDRS
+	TYPE = 		VME
+	WIDTH = 	SingleWide
+	STATION = 	NONE
+	OFFSET =	0
+	LISTOPT =	ByAFCode
+	PANELCOLOR =	WhiteColor
+	TEXTCOLOR =	BlackColor
+	PICT =		NONE
+	LABEL =		SIS3153
+END
+;-------------------------------------
+FUNC
+END
+;-------------------------------------
+DATA
+END
+;------------------- END OF FILE ------------------------
