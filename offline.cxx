@@ -9,7 +9,11 @@
 				       offline.cxx
 Perform charge integration(QDC) and constant fraction discrimination(CFD) on raw data. 
 Also, check for saturated pulses. Create a ROOT based tree with the processed information. 
-
+Build with: g++ -o offline offline.cxx `root-config --cflags --glibs`
+It's autimatically executed by the toolsheet program after each run, If it's located at
+Kmax_Stuff/offline directory.
+Also, it can be manually executed by ./offline X Y 
+where X is Module No. and Y is Run No.
 *********************************************************************************************/
 
 #include "TROOT.h"
